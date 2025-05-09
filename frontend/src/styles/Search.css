@@ -1,0 +1,94 @@
+.search-container {
+  text-align: center;
+  background-color: #363636;
+  color: white;
+  margin-top: 6rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.search-title {
+  margin: 0;
+  padding: 0.3rem 0;
+}
+
+.search-input-group {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+
+.search-date-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.search-button-container {
+  align-items: center;
+}
+
+.search-button {
+  color: white;
+  background-color: #1e90ff;
+
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.forecast-results {
+  /* holds the cards */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.forecast-card {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #1c1c1c;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  width: 200px;
+}
+
+.cold {
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+.mild {
+  color: #ddb05d;
+  font-weight: bold;
+}
+
+.warm {
+  color: #ee8606;
+  font-weight: bold;
+}
+
+.hot {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.extreme {
+  color: #ff0000;
+  font-weight: bold;
+}

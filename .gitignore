@@ -1,0 +1,35 @@
+# Node modules
+**/node_modules/
+
+# Build output
+**/dist/
+**/.next/
+**/out/
+
+# Environment variables
+**/.env
+
+# Logs
+**/logs
+**/*.log
+npm-debug.log*
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Docker
+**/*.local
+docker-compose.override.yml
+
+# Optional: ignore coverage/test reports
+coverage/
+*.lcov
+
+# Ignore lock files if you're not pinning dependencies
+# package-lock.json
+# yarn.lock

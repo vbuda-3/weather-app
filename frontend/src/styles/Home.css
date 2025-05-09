@@ -1,0 +1,25 @@
+.home-container {
+  text-align: center;
+  background-color: #363636;
+  color: white;
+  margin-top: 6rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-title,
+.home-description {
+  margin: 0;
+}
+
+.home-title {
+  padding: 0.3rem 0;
+}
+
+.home-description {
+  padding: 1rem 0;
+}
+
+
